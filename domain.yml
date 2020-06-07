@@ -6,8 +6,16 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
-
+  - get_user_name
+entities:
+- name
+slots:
+  name:
+    type: unfeaturized
 responses:
+  utter_start:
+  - text: Hello {name}
+  
   utter_greet:
   - text: "Hey! How are you?"
 
@@ -26,7 +34,18 @@ responses:
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
-
+  
+  actions:
+  - utter_greet
+  - utter_cheer_up
+  - utter_did_that_help
+  - utter_happy
+  - utter_goodbye
+  - utter_iamabot
+  - utter_unclear
+  - utter_start
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
+  
+  
