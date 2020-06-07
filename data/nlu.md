@@ -56,24 +56,24 @@
 - am I talking to a human?
 
 ## intent:get_user_name
- - user rohan
- - user akshita
- - user karan
- - user fenan
- - user prashant
- - user nandan
- - user shakeer
- - user rutvij
- - user dutta
- - user tom
- - user john
- - user tony
- - user franco
- - user rajat
- - user sanskriti
- - user navya
- - user priyanka
- - user joson
+- user [rohan](name)
+- user [akshita](name)
+- user [karan](name)
+- user [fenan](name)
+- user [prashant](name)
+- user [nandan](name)
+- user [shakeer](name)
+- user [rutvij](name)
+- user [dutta](name)
+- user [tom](name)
+- user [john](name)
+- user [tony](name)
+- user [franco](name)
+- user [rajat](name)
+- user [sanskriti](name)
+- user [navya](name)
+- user [priyanka](name)
+- user [joson](name)
 
 ## regex:name
  - user([^\s]*)
