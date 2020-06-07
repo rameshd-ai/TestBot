@@ -36,6 +36,8 @@
 - I am feeling very good
 - I am great
 - I'm good
+- ya m happy
+- amzaing
 
 ## intent:mood_unhappy
 - sad
@@ -48,12 +50,23 @@
 - not very good
 - extremely sad
 - so sad
+- i'm sad
+- im sad
 
 ## intent:bot_challenge
 - are you a bot?
 - are you a human?
 - am I talking to a bot?
 - am I talking to a human?
+
+## intent:unclear
+- t
+- yt
+- y
+- i
+- sdsdsd
+- tgfdgdg
+- dsfsdfdsf
 
 ## intent:get_user_name
 - user [rohan](name)
@@ -75,5 +88,22 @@
 - user [priyanka](name)
 - user [joson](name)
 
+## intent:get_user
+- user-tom
+- user-ramesh
+- user-suresh
+- user-prabha
+-  user-shakeer
+- user-aditya
+- user-shreyas
+- user-mihir
+- user-nikhil
+- user-shatanu
+- user-lav
+- user-akash
+- user-chinmay
+- user-vadiraj
+- user-meeth
+
 ## regex:name
- - user([^\s]*)
+- user([^\\s]*)
