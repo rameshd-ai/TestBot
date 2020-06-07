@@ -54,3 +54,26 @@
 - are you a human?
 - am I talking to a bot?
 - am I talking to a human?
+
+## intent:get_user_name
+ - user rohan
+ - user akshita
+ - user karan
+ - user fenan
+ - user prashant
+ - user nandan
+ - user shakeer
+ - user rutvij
+ - user dutta
+ - user tom
+ - user john
+ - user tony
+ - user franco
+ - user rajat
+ - user sanskriti
+ - user navya
+ - user priyanka
+ - user joson
+
+## regex:name
+ - user([^\s]*)
